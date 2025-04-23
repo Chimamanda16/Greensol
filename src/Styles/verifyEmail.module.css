@@ -1,0 +1,50 @@
+.otpWrapper {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+.otpInput {
+    width: 40px;
+    font-size: 24px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    background-color: transparent;
+    transition: border-color 0.2s ease;
+}
+
+.resendTime{
+    text-align: left;
+}
+
+.resendOtp{
+    text-align: left;
+}
+.resendOtp span{
+    color: #B3B3B3;
+    text-align: left;
+}
+
+.verify{
+    background-color: #fff;
+    margin: auto;
+    margin-top: 5%;
+    padding: 5%;
+    text-align: center;
+    width: 60%;
+}
+
+.verifyBtn{
+    background-color: #34343C;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 100%;
+}

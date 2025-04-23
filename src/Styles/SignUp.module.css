@@ -1,0 +1,126 @@
+.emailContainer,
+.passwordContainer,
+.socialContainer {
+  position: relative;
+  width: 100%;
+}
+
+.firstNameContainer,
+.lastNameContainer {
+  position: relative;
+  width: 48%;
+}
+
+.formIcon {
+  position: absolute;
+  top: 30%;
+  left: 1rem;
+  transform: translateY(-50%);
+  height: 20px;
+  width: 20px;
+}
+
+.formIconEye {
+  position: absolute;
+  top: 30%;
+  right: 2rem;
+  transform: translateY(-50%);
+  height: 20px;
+  width: 20px;
+}
+
+.genderCont{
+    text-align: center;
+}
+
+.nameInput, .nameInput, .emailInput, .passwordInput {
+  background-color: transparent;
+  border: 1px solid #34343C;
+  border-radius: 40px;
+  height: auto;
+  padding: 20px 20px 20px 2.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  width: calc(100% - 2.5rem - 20px);
+}
+
+input::placeholder {
+  color: #1e272F;
+}
+
+.loginPage {
+  color: #1E272F;
+}
+
+.loginPage span {
+  color: #000;
+}
+
+.nameContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.signup {
+  background-color: #fff;
+  border-radius: 20px;
+  margin: auto;
+  text-align: center;
+  padding: 2rem 1rem;
+  width: 60%;
+}
+
+.signup h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.signupBtn {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  background-color: #34343C;
+  color: white;
+  border-radius: 40px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.signupForm {
+  margin: 2rem auto;
+  width: 80%;
+}
+
+.signupForm p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.socialBtn {
+    background-color: transparent;
+    border: none;
+}  
+
+.socialContainer{
+    border: 1px solid #34343C;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 2% 3%;
+}
+
+.socialWrapper {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.socialWrapper > div {
+  flex: 1 1 48%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
