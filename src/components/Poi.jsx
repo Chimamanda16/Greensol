@@ -17,6 +17,7 @@ const ProofOfAddress = () => {
             <form className={styles.proofForm}>
                 <div className={styles.proofContainer}>
                     <select className={styles.idTypeInput} >
+                        <option value="Gender" disabled>Gender</option>
                         <option value="Male">Female</option>
                         <option value="Female">Male</option>
                     </select>

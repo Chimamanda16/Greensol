@@ -1,3 +1,7 @@
+.otpCont{
+    padding: 5% 10%;
+}
+
 .otpInput {
     width: 40px;
     font-size: 24px;
@@ -30,9 +34,10 @@
 
 .verify{
     background-color: #fff;
+    border-radius: 20px;
     margin: auto;
-    margin-top: 5%;
-    padding: 5%;
+    margin-bottom: 20px;
+    padding: 2% 0%;
     text-align: center;
     width: 60%;
 }

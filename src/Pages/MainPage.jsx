@@ -12,12 +12,12 @@ const MainPage = () => {
     <div className={styles.mainPage}>
         <Navbar />
         <img src="../images/back.svg" className={styles.backBtn}/>
-        {/* <SignUp />  */}
-        {/* <Gender /> */}
-        {/* <Info /> */}
+        <SignUp /> 
+        <Gender />
+        <Info />
         <VerifyEmail />
-        {/* <BvnForm /> */}
-        {/* <ProofOfAddress /> */}
+        <BvnForm />
+        <ProofOfAddress />
     </div>
   )
 }

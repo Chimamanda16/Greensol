@@ -28,26 +28,28 @@ const VerifyEmail = () => {
     <div className={styles.verify}>
       <h3>Verify Email</h3>
       <p>A verification code has been sent to you, Please enter the code</p>
+      <div className={styles.otpCont}>
+        <div className={styles.otpWrapper}>
+            {[...Array(6)].map((_, i) => (
+                <input
+                    key={i}
+                    maxLength="1"
+                    type="text"
+                    className={styles.otpInput}
+                    onChange={(e) => handleChange(e, i)}
+                    onKeyDown={(e) => handleKeyDown(e, i)}
+                    ref={(el) => (inputs.current[i] = el)}
+                />
+            ))}
+        </div>
 
-      <div className={styles.otpWrapper}>
-        {[...Array(6)].map((_, i) => (
-          <input
-            key={i}
-            maxLength="1"
-            type="text"
-            className={styles.otpInput}
-            onChange={(e) => handleChange(e, i)}
-            onKeyDown={(e) => handleKeyDown(e, i)}
-            ref={(el) => (inputs.current[i] = el)}
-          />
-        ))}
+        <p className={styles.resendTime}>Resend Code in 1:30</p>
+        <p className={styles.resendOtp}>
+            <span>Resend OTP via Email?</span> Click here
+        </p>
+        <button className={styles.verifyBtn}>Verify</button> 
       </div>
-
-      <p className={styles.resendTime}>Resend Code in 1:30</p>
-      <p className={styles.resendOtp}>
-        <span>Resend OTP via Email?</span> Click here
-      </p>
-      <button className={styles.verifyBtn}>Verify</button>
+      
     </div>
   );
 };

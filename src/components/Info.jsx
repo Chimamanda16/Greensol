@@ -7,7 +7,7 @@ const Info = () => {
         <p>Please enter your real information, the same details on your ID.</p>
         <form className={styles.infoForm}>
           <select className={styles.infoInputSelect} name="Country">
-            <option value="Country" disabled>Gender</option>
+            <option value="Country" disabled>Country</option>
             <option value="Nigeria">Nigeria</option>
             <option value="Ghana">Ghana</option>
             <option value="Kenya">Kenya</option>
@@ -23,7 +23,7 @@ const Info = () => {
             <input type="tel" className={styles.phoneNumber} placeholder="Phone number" />
           </div>
           <select name="State" id="" className={styles.infoInputSelect}>
-            <option value="State" disabled>Gender</option>
+            <option value="State" disabled>State</option>
             <option value="Lagos">Lagos</option>
             <option value="Abuja">Abuja</option>
             <option value="Port Harcourt">Port Harcourt</option>
