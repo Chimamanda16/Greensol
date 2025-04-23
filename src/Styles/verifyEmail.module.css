@@ -1,10 +1,3 @@
-.otpWrapper {
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-    margin-top: 20px;
-}
-  
 .otpInput {
     width: 40px;
     font-size: 24px;
@@ -14,6 +7,13 @@
     outline: none;
     background-color: transparent;
     transition: border-color 0.2s ease;
+}
+
+.otpWrapper {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .resendTime{

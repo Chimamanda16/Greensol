@@ -1,3 +1,7 @@
+.dobInput{
+  width: calc(100% - 2.5rem - 20px);
+}
+
 .dropdownIcon {
   height: 15px;
   position: absolute;
@@ -15,14 +19,45 @@
   width: 60%;
 }
 
+.genderBtn {
+  background-color: #34343C;
+  border-radius: 40px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-size: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+
 .genderContainer,
 .dobContainer {
   position: relative;
   width: 100%;
 }
 
-.dobInput{
-  width: calc(100% - 2.5rem - 20px);
+.genderForm {
+  margin: 2rem auto;
+  width: 100%;
+}
+
+.genderFormCont {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.genderIcon {
+  height: 20px;
+  margin-left: 1rem;
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  width: 20px;
+}
+
+.genderInput{
+  width: 100%;
 }
 
 .genderInput,
@@ -35,41 +70,6 @@
   padding: 20px 20px 20px 2.5rem;
 }
 
-.genderInput{
-  width: 100%;
-}
-
-.genderIcon {
-  height: 20px;
-  margin-left: 1rem;
-  position: absolute;
-  top: 30%;
-  transform: translateY(-50%);
-  width: 20px;
-}
-
 input::placeholder {
   color: #1e272F;
-}
-
-.signup {
-  text-align: center;
-  padding: 2rem 1rem;
-}
-
-.signupBtn {
-  background-color: #34343C;
-  border-radius: 40px;
-  color: white;
-  cursor: pointer;
-  display: block;
-  font-size: 1rem;
-  margin-top: 1rem;
-  padding: 1rem;
-  width: 100%;
-}
-
-.signupForm {
-  margin: 2rem auto;
-  width: 100%;
 }

@@ -1,3 +1,8 @@
+.backBtn{
+    left: 15%;
+    margin: 3% 0;
+}
+
 .mainPage{
     background: linear-gradient(135deg, #fdfaf2 0%, #e9f7f3 50%, #edf5fb 100%);
 }
