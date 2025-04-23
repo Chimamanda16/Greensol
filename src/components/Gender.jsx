@@ -10,13 +10,14 @@ const Gender = () => {
             <form className={styles.genderForm}>
                 <div className={styles.genderContainer}>
                     <img className={styles.genderIcon} src="../images/user.svg" alt="User Icon" />
-                    <select className={styles.genderInput} >
+                    <select className={styles.genderInput} defaultValue="Gender">
+                        <option value="" disabled>Gender</option>
                         <option value="Male">Female</option>
                         <option value="Female">Male</option>
                     </select>
                 </div>
                 <div className={styles.dobContainer}>
-                    <img className={styles.genderIcon} src="../images/user.svg" alt="User Icon" />
+                    <img className={styles.genderIcon} src="../images/dob.svg" alt="User Icon" />
                     <input type="text" placeholder="Date of birth" className={styles.dobInput} />
                 </div>
                 <button className={styles.genderBtn}>Continue</button>

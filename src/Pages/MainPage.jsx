@@ -12,8 +12,8 @@ const MainPage = () => {
     <div className={styles.mainPage}>
         <Navbar />
         <img src="../images/back.svg" className={styles.backBtn}/>
-        <SignUp />
-        {/* <Gender /> */}
+        {/* <SignUp />  */}
+        <Gender />
         {/* <BvnForm /> */}
         {/* <Info /> */}
         {/* <VerifyEmail /> */}
