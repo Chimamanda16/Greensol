@@ -11,7 +11,7 @@ const Gender = () => {
                 <div className={styles.genderContainer}>
                     <img className={styles.genderIcon} src="../images/user.svg" alt="User Icon" />
                     <select className={styles.genderInput} defaultValue="Gender">
-                        <option value="" disabled>Gender</option>
+                        <option value="Gender" disabled>Gender</option>
                         <option value="Male">Female</option>
                         <option value="Female">Male</option>
                     </select>
