@@ -1,3 +1,16 @@
+.alt {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 2px solid #E7E7E7; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+} 
+
+.alt span { 
+   background:#fff; 
+   padding:0 10px; 
+}
+
 .emailContainer,
 .passwordContainer,
 .socialContainer {
@@ -13,7 +26,7 @@
 
 .formIcon {
   position: absolute;
-  top: 30%;
+  top: 33%;
   left: 1rem;
   transform: translateY(-50%);
   height: 20px;
@@ -67,8 +80,8 @@ input::placeholder {
   background-color: #fff;
   border-radius: 20px;
   margin: auto;
+  padding: 2% 0;
   text-align: center;
-  padding: 2rem 1rem;
   width: 60%;
 }
 
@@ -123,4 +136,12 @@ input::placeholder {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+
+.terms{
+  display: flex;
+}
+
+.terms p span{
+  color: #366CBD;
 }

@@ -5,7 +5,7 @@ const SignUp = () => {
   return (
     <div className={styles.signup}>
       <h3>Create a new account</h3>
-      <p>Ready to power up your bill management? Enter your details to continue</p>
+      <p>Ready to power up your bill management? Enter your details to continue.</p>
       <form className={styles.signupForm}>
         <div className={styles.nameContainer}>
           <div className={styles.firstNameContainer}>
@@ -26,12 +26,15 @@ const SignUp = () => {
           <input type="text" placeholder="Password" className={styles.passwordInput} />
           <img className={styles.formIconEye} src="../images/eye-slash.svg" alt="" />
         </div>
-        <p>By creating an account, you agree to our Terms and Policies</p>
+        <div className={styles.terms}>
+          <input type="checkbox" />
+          <p>By creating an account, you agree to our <span>Terms</span> and <span>Policies</span></p>
+        </div>
         <button className={styles.signupBtn}>Continue</button>
         <p className={styles.loginPage}>
           Already have an account? <span>Log in</span>
         </p>
-        <p>OR</p>
+        <p className={styles.alt}><span>OR</span></p>
         <div className={styles.socialWrapper}>
           <div className={styles.socialContainer}>
             <img src="../images/facebook.svg" alt="" />
