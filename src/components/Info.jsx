@@ -31,8 +31,8 @@ const Info = () => {
           </select>
           <input className={styles.infoInput} type="text" placeholder="Home Address"/>
           <input className={styles.infoInput} type="text" placeholder="Postal Code"/>
+          <button className={styles.infoBtn}>Continue</button>
         </form>
-        <button className={styles.infoBtn}>Continue</button>
     </div>
   )
 }

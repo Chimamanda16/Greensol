@@ -9,7 +9,7 @@ const BvnForm = () => {
         <p>To further secure your account please add your BVN</p>
       </div>
 
-      <form>
+      <form className={styles.bvnForm}>
         <div className={styles.inputGroup}>
           <p className={styles.skip}>Skip</p>
           <input className={styles.bvnInput} type="text" placeholder="BVN" required />
