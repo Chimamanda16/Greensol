@@ -9,3 +9,9 @@
     font-family: "Outfit", sans-serif;
     padding: 0  0% 5%;
 }
+
+@media screen and (max-width: 600px) {
+    .backBtn{
+        left: 5%;
+    }
+}

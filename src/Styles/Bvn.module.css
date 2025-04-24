@@ -63,3 +63,13 @@
   cursor: pointer;
   text-align: right;
 }
+
+@media screen and (max-width: 600px) {
+  .bvnContainer{
+    width: 95%;
+  }
+
+  .bvnForm{
+    width: 95%;
+  }
+}

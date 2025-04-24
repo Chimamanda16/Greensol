@@ -11,20 +11,19 @@ const ProofOfAddress = () => {
 
   return (
     <div className={styles.proof} >
-        <h3>Proof of Identity</h3>
+        <h3>Proof of Address</h3>
         <p>Let's get to know you better, please upload the following documents.</p>
         <div className={styles.proofFormWrapper}>
+            <p className={styles.skip}>Skip</p>
             <form className={styles.proofForm}>
                 <div className={styles.proofContainer}>
                     <select className={styles.idTypeInput} >
-                        <option value="Male">Female</option>
-                        <option value="Female">Male</option>
+                        <option value="Male" disabled>Home Address</option>
+                        <option value="Male" disabled>Address</option>
                     </select>
                 </div>
-                <div className={styles.idContainer}>
-                    <input type="text" placeholder="ID Number" className={styles.IdInput} />
-                </div>
-                <p className={styles.uploadInfo}>Upload Front and Back Side of your ID</p>
+                
+                <p className={styles.uploadInfo}>Upload Utiltity Bill</p>
                 <div className={styles.uploadCont}>
                     <div>
                         <img src="../images/upload.svg" alt="" />

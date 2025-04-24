@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import React from 'react'
 import styles from "../Styles/poi.module.css";
 
-const ProofOfAddress = () => {
+const ProofOfInfo = () => {
     
     const fileInputRef = useRef();
     const handleClick = () => {
@@ -14,6 +14,7 @@ const ProofOfAddress = () => {
         <h3>Proof of Identity</h3>
         <p>Let's get to know you better, please upload the following documents.</p>
         <div className={styles.proofFormWrapper}>
+                        <p className={styles.skip}>Skip</p>
             <form className={styles.proofForm}>
                 <div className={styles.proofContainer}>
                     <select className={styles.idTypeInput} >
@@ -49,4 +50,4 @@ const ProofOfAddress = () => {
   )
 }
 
-export default ProofOfAddress;
+export default ProofOfInfo;

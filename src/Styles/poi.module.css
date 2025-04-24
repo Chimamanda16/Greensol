@@ -90,3 +90,19 @@ input::placeholder {
   text-align: center;
   padding: 2rem 1rem;
 }
+
+.skip {
+  color: #B3B3B3;
+  cursor: pointer;
+  text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+  .proof{
+    width: 95%;
+  }
+
+  .proofForm{
+      width: 95%;
+  }
+}
